@@ -1,0 +1,33 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,md}"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-solid": "^0.9.1",
+    "prettier": "^2.8.1",
+    "sass": "^1.57.1",
+    "typescript": "^4.9.4",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.11.6",
+    "@hope-ui/core": "1.0.0-next.11",
+    "@stitches/core": "^1.2.8",
+    "clsx": "^1.2.1",
+    "solid-js": "^1.6.6",
+    "vite": "^4.0.3"
+  }
+}
